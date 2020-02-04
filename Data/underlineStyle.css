@@ -1,0 +1,20 @@
+<head>
+<style>
+a.err {
+  border-bottom:3px dotted red;
+  display: inline-block;
+  position: relative;
+}
+a.err:after {
+  content: '';
+  width: 100%;
+  border-bottom:3px dotted red;
+  position: absolute;
+  font-size: 16px;
+  top: 15px; /* Must be font-size minus one (16px - 1px) */
+  left: -2px;
+  display: block;
+  height: 4px;
+}
+</style>
+</head>
